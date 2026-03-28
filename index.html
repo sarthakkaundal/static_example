@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AERIS | Luxury & Sports Cars</title>
+    <meta name="description" content="Discover ultra-premium luxury and high-performance sports cars. Experience the pinnacle of automotive engineering.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Syncopate:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">AERIS</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#philosophy">Philosophy</a></li>
+                <li><a href="#fleet">Fleet</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="btn-primary nav-btn">Reserve</button>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Redefining <span class="accent-text">Velocity</span></h1>
+            <p class="hero-subtitle">Where uncompromised luxury meets blistering performance. Experience the masterpiece of modern engineering.</p>
+            <div class="hero-actions">
+                <a href="#fleet" class="btn-primary">Explore Models</a>
+                <a href="#philosophy" class="btn-secondary">Our Legacy</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <p>Scroll to explore</p>
+        </div>
+    </header>
+
+    <section class="section philosophy" id="philosophy">
+        <div class="container philosophy-grid">
+            <div class="philosophy-text reveal" data-direction="left">
+                <span class="section-tag">The Philosophy</span>
+                <h2 class="section-title">Mastercraft in <br>Every Detail</h2>
+                <p>We don't just build cars; we forge legacies. Every stitch in the leather, every curve of the carbon fiber, and every decibel of the exhaust note is meticulously engineered to evoke pure emotion. AERIS represents the ultimate convergence of art and science.</p>
+                <ul class="features-list">
+                    <li>
+                        <span class="feature-icon">⚡</span>
+                        <div>
+                            <h3>Aerodynamic Perfection</h3>
+                            <p>Sculpted by the wind for zero drag and maximum downforce.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="feature-icon">💎</span>
+                        <div>
+                            <h3>Bespoke Interiors</h3>
+                            <p>Hand-stitched leather and aerospace-grade materials.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="philosophy-image reveal" data-direction="right">
+                <img src="images/interior.png" alt="Luxury Car Interior">
+                <div class="image-accent"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section fleet" id="fleet">
+        <div class="container">
+            <div class="fleet-header reveal" data-direction="up">
+                <span class="section-tag">The Fleet</span>
+                <h2 class="section-title">Engineering <span class="accent-text">Marvels</span></h2>
+            </div>
+            
+            <div class="cards-grid">
+                <!-- Card 1 -->
+                <div class="car-card reveal" data-direction="up" data-delay="0">
+                    <div class="card-image-wrapper">
+                        <img src="images/hero.png" alt="Aeris Phantom" class="card-image">
+                    </div>
+                    <div class="card-content">
+                        <h3>Phantom V8</h3>
+                        <p class="specs">850 HP • 0-60 in 2.3s • Top Speed 230 mph</p>
+                        <p class="desc">The ultimate grand tourer painted in shadows. Built for the relentless pursuit of perfection.</p>
+                        <a href="#" class="btn-outline">Configure</a>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="car-card reveal" data-direction="up" data-delay="0.2">
+                    <div class="card-image-wrapper">
+                        <img src="images/car2.png" alt="Aeris Corsa" class="card-image">
+                    </div>
+                    <div class="card-content">
+                        <h3>Corsa Rossa</h3>
+                        <p class="specs">920 HP • 0-60 in 2.1s • Top Speed 245 mph</p>
+                        <p class="desc">A mid-engine Italian masterpiece. Track-focused dynamics wrapped in a breathtaking silhouette.</p>
+                        <a href="#" class="btn-outline">Configure</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="cta-overlay"></div>
+        <div class="container cta-content reveal" data-direction="up">
+            <h2>Experience the <span class="accent-text">Thrill</span></h2>
+            <p>Book a private viewing or test drive at your nearest AERIS lounge.</p>
+            <a href="#contact" class="btn-primary btn-large">Request an Invitation</a>
+        </div>
+    </section>
+
+    <footer class="footer" id="contact">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="#" class="logo">AERIS</a>
+                <p>The definitive luxury automotive experience.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Models</h4>
+                <ul>
+                    <li><a href="#">Phantom V8</a></li>
+                    <li><a href="#">Corsa Rossa</a></li>
+                    <li><a href="#">Concept E</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Sustainability</a></li>
+                    <li><a href="#">Press</a></li>
+                </ul>
+            </div>
+            <div class="footer-newsletter">
+                <h4>Newsletter</h4>
+                <p>Stay updated on the latest reveals.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email address">
+                    <button type="submit">→</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 AERIS Automotive. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
