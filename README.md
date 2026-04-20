@@ -61,12 +61,12 @@ http://52.1.23.92
 
 ##  Screenshots
 
-### 🔹 EC2 Instance Dashboard
+### 🔹 Static Website Output
 
 ![EC2 Dashboard](./website.png)
 
 
-### 🔹 Static Website Output
+### 🔹 SEC2 Instance Dashboard
 
 ![website](./ec2Dashboard.png)
 
