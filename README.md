@@ -66,7 +66,7 @@ http://52.1.23.92
 ![EC2 Dashboard](./website.png)
 
 
-### 🔹 SEC2 Instance Dashboard
+### 🔹 EC2 Instance Dashboard
 
 ![website](./ec2Dashboard.png)
 
